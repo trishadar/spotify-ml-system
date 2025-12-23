@@ -22,6 +22,7 @@ for item in results['items']:
         "track_id": track["id"],
         "name": track["name"],
         "artist": track["artists"][0]["name"],
+        "artist_id": track["artists"][0]["id"],
         "album": track["album"]["name"],
         "played_at": item["played_at"]
     })
